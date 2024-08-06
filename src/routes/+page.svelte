@@ -1,8 +1,10 @@
 
 <script lang="ts">
     import type { IPost } from "$lib/entities/post";
+    import { onMount } from "svelte";
 	import Article from "../components/Article.svelte"
-	export let data: {posts: IPost[]};
+    import { myselfTracksStore } from "../store/lastFm";
+	export let data: {posts: IPost[], lastFm: any};
 	let scrollH = (e: any) => {
 		if(e.type != 'wheel')
 		{
@@ -10,10 +12,19 @@
 		}
 		let delta = ((e.deltaY || -e.wheelDelta || e.detail) >> 10) || 1;
 		delta = delta * (-100);
-		//document.querySelector("section.svelte-6s3vya").scrollLeft -= delta;    
+		//@ts-ignore
+		document.querySelector("section#scroll-container").scrollLeft -= delta;    
 
 		e.preventDefault();
 	}
+
+
+onMount(() => {
+    if (data.lastFm) {
+		console.log(data.lastFm)
+		myselfTracksStore.set(data.lastFm);
+    }
+})
 </script>
 
 
@@ -30,6 +41,8 @@ section{
 		flex-direction: column;
 		height: auto;
       }  }
+
+
 </style>
 
 
@@ -47,7 +60,7 @@ section{
 
 
 
-<section on:wheel={scrollH}>
+<section on:wheel={scrollH} id="scroll-container">
 		{#each data.posts as post}
 			<Article { post } />
 		{/each}
