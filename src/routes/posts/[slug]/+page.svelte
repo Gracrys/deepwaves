@@ -2,7 +2,6 @@
     import type { IPost } from '$lib/entities/post';
 	export let data: {post:IPost};
     const {post} = data
-    console.log(post)
     import '../../../sass/post.sass'
 </script>
 

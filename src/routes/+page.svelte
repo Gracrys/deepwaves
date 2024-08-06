@@ -19,12 +19,6 @@
 	}
 
 
-onMount(() => {
-    if (data.lastFm) {
-		console.log(data.lastFm)
-		myselfTracksStore.set(data.lastFm);
-    }
-})
 </script>
 
 
