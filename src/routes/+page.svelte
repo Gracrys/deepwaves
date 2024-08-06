@@ -33,10 +33,19 @@ section{
 </style>
 
 
-
 <svelte:head>
 	<title>Deep.Waves</title>
+	<meta property="og:title" content="Deep.waves">
+	<meta property="og:image" content="/iceberg.png">
+	<meta property="og:description" content="Going deep into the iceberg of music....">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image"  content="/iceberg.png" />
+	<meta property="og:image:secure_url"  content="/iceberg.png">
+	<meta property="og:image:height" content="920">
+	<meta property="og:image:width" content="920">
 </svelte:head>
+
+
 
 <section on:wheel={scrollH}>
 		{#each data.posts as post}

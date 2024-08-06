@@ -12,7 +12,9 @@
 	
 </style>
 
+
 <Nav {open}/>
+
 
 <main>
 	<Header on:open={toggleMenu}></Header>

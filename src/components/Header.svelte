@@ -14,7 +14,7 @@ const dispatch = createEventDispatcher();
 	export let open : Boolean = false;
 </script>
 <header class="header">
-	<a href="" class="logo-over" class:open><img src="/iceberg.png" alt="logo" class="logo" ></a>
+	<a href="/" class="logo-over" class:open><img src="/iceberg.png" alt="logo" class="logo" ></a>
 	<dialog class:open>
 		<h2>Welcome...</h2>
 	</dialog>

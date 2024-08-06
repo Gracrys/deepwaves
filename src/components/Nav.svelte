@@ -7,7 +7,7 @@
 
 <aside class="sidebar-menu" class:open>
 	<header>
-		<a href="" class="logo-over">
+		<a href="/" class="logo-over">
 			<img src="/iceberg.png" alt="logo" class="logo">
 			<h2>deep waves</h2>
 			<i>Going deep into the iceberg of the music...</i>
