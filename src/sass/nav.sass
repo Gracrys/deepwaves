@@ -1,0 +1,59 @@
+
+header
+	width: 100%
+	h2
+		font-weight: bold
+		font-family: Lustria
+	.logo
+		width: 80px
+		margin: auto
+	.logo-over
+		display: flex
+		flex-direction: column
+		align-items: center
+		text-align: center
+		text-decoration: none
+		color: var(--sky)
+		> i
+			margin: 1rem 0
+			width: 80%
+
+.sidebar-menu
+	padding: 1rem
+	width: 20vw
+	height: 100vh
+	position: relative
+	margin-left: calc(-20vw - 2rem)
+	background: #0D0D0D
+	transition: margin 0.6s
+	&.open
+		margin-left: 0
+	> nav
+		display: flex
+		flex-direction: column
+		height: 60%
+		ul
+			display: flex
+			flex-direction: column
+			align-items: center
+			padding: 0
+			list-style: none
+			> li
+				padding: 0
+				margin: 2rem 0
+			
+
+		footer
+			margin-top: auto
+			border-top: 1px solid var(--bg)
+			padding-top: 0.4rem
+			a
+				text-align: center
+				
+
+	@media screen and ( max-width: 820px )
+		width: 240px
+		min-width: 180px
+		margin-left: calc(-240px - 2rem)
+		&.open
+			margin-left: 0 
