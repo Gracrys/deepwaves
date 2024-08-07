@@ -1,6 +1,8 @@
+import music from "./music";
 import thou from "./thou"
 
 const posts = [
+	music,
 thou,
 {
 		title: 'Glitch and GlitchCore',
