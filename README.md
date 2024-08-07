@@ -1,4 +1,16 @@
-# create-svelte
+# deep-waves
+
+Music blog for reviews an recommendations
+
+__todo__
+
+[ X ] MD - Like posts and make a md to html parser
+
+[ X ] LAST.FM api connection
+
+[ ] LAST.FM recomendations
+
+[ ] And well, more posts
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 

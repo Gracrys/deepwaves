@@ -17,7 +17,7 @@
 	<nav>
 		<ul>
 			{#each tags as tag}
-				<li><a sapper:prefetch rel=prefetch href="{tag.slug+ "/"}" >{tag.name }</a></li>
+				<li><a sapper:prefetch rel=prefetch href="{"/tag/"+tag.slug+ "/"}" >{tag.name }</a></li>
 			{/each}
 
 			<!-- <li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
@@ -30,6 +30,7 @@
 		<footer class="">
 		
 			<a href="/chart">CHART</a>
+			<a href="/top100">TOP100</a>
 			<a href="">about</a>
 		</footer>
 	</nav>

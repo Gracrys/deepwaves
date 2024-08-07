@@ -14,7 +14,8 @@ let now = dayjs()
         setTimeout(() => {
         currentData = ($myselfTracksStore.track).map((x:any) => x.image[2]['#text'])
         filteredCurrentData = Array.from(new Set(currentData))
-    },1000)
+    },
+    1000)
     })
 
 </script>
