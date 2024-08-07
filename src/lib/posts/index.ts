@@ -1,7 +1,9 @@
+import juanamolina from "./juanamolina";
 import music from "./music";
 import thou from "./thou"
 
 const posts = [
+	juanamolina,
 	music,
 thou,
 {
