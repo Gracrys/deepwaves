@@ -1,8 +1,12 @@
+import ahCaIra from "./ah-ca-ira";
+import grief from "./grief";
 import juanamolina from "./juanamolina";
 import music from "./music";
 import thou from "./thou"
 
 const posts = [
+	grief,
+	ahCaIra,
 	juanamolina,
 	music,
 thou,
