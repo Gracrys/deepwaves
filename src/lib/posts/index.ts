@@ -1,11 +1,13 @@
 import type { IPost } from "$lib/entities/post";
 import ahCaIra from "./ah-ca-ira";
+import crank from "./crank";
 import grief from "./grief";
 import juanamolina from "./juanamolina";
 import music from "./music";
 import thou from "./thou"
 
 const posts = [
+	crank,
 	grief,
 	ahCaIra,
 	juanamolina,
@@ -32,7 +34,7 @@ _Chiptune_ was a pet genre, from time you could listen to some of these beats on
 For glitch it was almost the same case, small artists using these jumps, scratches and recording errors and sampling, saturating, etc. In clubs and mixes, artists like _autechre_  and _coil_, while others like _the glitch mob_, used this sound and embraced it, using it as a trademark, the glitch mob sound was more house-like, deviating from rave styles and getting more elements of artists like _deadmou5_.
 
 
-### GlitchCore
+### GlitchCore (and glitchop)
 Now in 2021-2022, we are getting almost the same issue, _Glitchcore_ was a a really old genre, that was like a step further from  _drill and bass_, _chiptune_, _nintendocore_ an most important, _breakcore_ and _glitch hop_. 
 
 _GlitchCore_ was a step further, not only it was a more stronger genre, faster tempo (like way faster speed, 170-190+) but more elements, aggresive drums, inclusion of noise, and others elements, artists like _Venetian Snares_, _bong-ra_ and _igorr_ played with the genre between their breakcore eps, and later artists like _sewerslvt, lolishit, vertigoaway, machinegrl_, and others, embraced the genre, using it as main style and even in aesthetics, most of them used anime elements fused with glitch designs of oversaturated colors and chopped pictures, until now, for anybody who wants to get into that genre, he can can just listen to some sewerslvt, is one of the best doors for that big palace of musical abstraction.
