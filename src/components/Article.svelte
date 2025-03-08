@@ -1,5 +1,5 @@
 <article>
-    <a rel='prefetch' href='posts/{post.slug}'><h1>{post.title}</h1>
+    <a rel='prefetch' href='/posts/{post.slug}'><h1>{post.title}</h1>
         <img src={post.img} alt="">
     </a>
     <p>{post.summary}</p>

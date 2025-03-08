@@ -3,16 +3,16 @@
     import Article from "../../../components/Article.svelte";
     import '../../../sass/tags.sass'
     export let data:{posts: IPost[], actualTag: any}
-    let { posts, actualTag } = data;
+
 </script>
 
 <svelte:head>
-    <title>Deep.Waves - {actualTag[0].name}</title>
+    <title>Deep.Waves - {data.actualTag.name}</title>
 </svelte:head>
 
-<h1>{actualTag[0].name}</h1>
+<h1>{data.actualTag.name}</h1>
 <section>
-    {#each posts as post}
+    {#each data.posts as post}
         <Article {post} />
     {/each}
 </section>

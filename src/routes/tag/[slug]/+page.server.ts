@@ -3,27 +3,23 @@ import { tags } from '../../../store/tags';
 import { error } from '@sveltejs/kit';
 import type { IPost } from '$lib/entities/post.js';
 
+export function load(event: any) {
 
-const lookup = new Map();
+   const { slug } = event.params
 
-export function load({ params }: {params: any}) {
+   const actualTag = tags.find(tag => slug == tag.slug)
+   const newPosts = posts.filter((x: IPost) => x.tags.includes((actualTag)?.name || ''))
+
+   if (newPosts.length > 0) {
+      return {
+         posts: newPosts,
+         actualTag
+      }
+   } else {
+      //front:invalidate,goto,back:redirect
+
+      error(404, 'No posts under this category');
+   }
 
 
-    const { slug } = params
-
-    const actualTag = tags.filter(tag => slug == tag.slug) 
-   //@ts-ignore
-    const contents = {posts: posts.filter((x:IPost) => x.tags.includes(actualTag[0].name)), actualTag};
-
-
-     if(contents.posts.length > 0){
-        return contents
-     }else{
- 
-        error(404, 'No posts under this category');
-		
-
-}
-
-   
 }
