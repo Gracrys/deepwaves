@@ -1,3 +1,4 @@
+import type { IPost } from "$lib/entities/post";
 import ahCaIra from "./ah-ca-ira";
 import grief from "./grief";
 import juanamolina from "./juanamolina";
@@ -353,7 +354,7 @@ The albums feels really natural and emotional, touching i would say, in some par
 	},
 
 
-];
+] as IPost[];
 
 export default posts
     
