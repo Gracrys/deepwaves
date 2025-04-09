@@ -1,4 +1,4 @@
-const ahCaIra = {
+const crank = {
 	title: 'Crank wave',
 	img: '/blog/pirouette.jpg',
 	slug: 'crankwave',
@@ -15,4 +15,4 @@ Both squid new album, black country and the promising model / actriz album are s
 }
 
 
-export default ahCaIra
+export default crank

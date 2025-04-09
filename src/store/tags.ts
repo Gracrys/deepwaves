@@ -1,4 +1,6 @@
-export  const tags = [
+import posts from "$lib/posts"
+
+/*export  const tags = [
     {
         name: "#review",
         slug: "review"
@@ -63,3 +65,9 @@ export  const tags = [
         slug: "melodic"
     },
 ]
+*/
+
+export const tags = (Array.from(new Set(posts.map(x => x.tags).flat()))).sort().map(x => ({
+    name: x.toLowerCase(),
+    slug: x.replace('#', '')
+}))

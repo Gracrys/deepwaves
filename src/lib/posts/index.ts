@@ -175,7 +175,7 @@ i think the quality of this work stays on its emotional value, i cannot get to a
 		img: '/blog/body.jpg',
 		slug: 'the-body',
 		summary: 'Noise packed horror - noise - power electronics',
-		tags: ['#electronics','#noise', '#metal', '#powerelectronics', '#experimental', 'underground'],
+		tags: ['#electronics','#noise', '#metal', '#powerelectronics', '#experimental', '#underground'],
 		md: `
 Noise since the start of the album, some intro is passed and so comes a big fuzz which accompanies all the songs,
 
@@ -307,7 +307,7 @@ I dont say that this album would become a top seller, but has the energy, the em
 		title: 'Ghosts V - VI ',
 		slug: 'Ghosts',
 		img: '/blog/ghosts-locusts.jpg',
-		tags:  ["#review", "#dark-ambient" ],
+		tags:  ["#review", "#darkambient" ],
 		summary: 'The dark continuation to one of the most powerful pieces in the genre of dark ambient',
 		html: `
 			<h4>Ghosts V - Together</h4>
@@ -359,4 +359,4 @@ The albums feels really natural and emotional, touching i would say, in some par
 ] as IPost[];
 
 export default posts
-    
+  

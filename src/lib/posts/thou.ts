@@ -3,7 +3,7 @@ const thou = {
 	img: '/blog/thou.jpg',
 	slug: 'thou',
 	summary: 'Thou and Emma Ruth Rundle, and how to make a soft strong post metal album',
-	tags: ['#Blackgaze', '#Doom', '#Stoner', '#Metal', '#Post Metal', '#noise'],
+	tags: ['#blackgaze', '#doom', '#stoner', '#metal', '#postmetal', '#noise'],
 	md: `
 
 May our chambers be full is a doom - blackgaze - stoner album that just resonates with some melodic soft voices from this thou companion, Emma Ruth Rundle
