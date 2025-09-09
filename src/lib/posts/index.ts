@@ -3,10 +3,16 @@ import ahCaIra from "./ah-ca-ira";
 import crank from "./crank";
 import grief from "./grief";
 import juanamolina from "./juanamolina";
+import lifelover from "./lifelover";
 import music from "./music";
+import music2 from "./music2";
+import stomachbook from "./stomachbook";
 import thou from "./thou"
 
 const posts = [
+	stomachbook,
+	lifelover,
+	music2,
 	crank,
 	grief,
 	ahCaIra,
