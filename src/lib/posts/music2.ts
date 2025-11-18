@@ -1,7 +1,7 @@
 const music2 = {
 	title: 'Digging deeper into music',
 	img: '/blog/music.jpg',
-	slug: 'music-enjoying',
+	slug: 'music-enjoying2',
 	summary: 'Digging deeper into music and refining',
 	tags: ['#music'],
 	md: `
